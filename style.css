@@ -1,0 +1,58 @@
+* {
+    font-family: Century Gothic;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ededed;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+}
+div {
+    background-color: #fff;
+    box-shadow: 0 0 12px #ccc;
+    font-size: 30px;
+    margin: 40px;
+    padding: 50px;
+    width:90%;
+}
+button{
+    width:200px;
+    height:50px;
+    background:none;
+    border: 2px solid rgb(156, 5, 5);
+    cursor:pointer;
+    -webkit-user-select: nones;
+    transition: 0.2s ease-out;
+    font-size: 20px;
+    border-radius: 30px;
+}
+button:hover{
+    background: #ac3b3b;
+    color:white
+}
+section{
+    margin-top: 200px;
+    border: 2px solid rgb(192, 191, 191);
+    color: rgb(202, 200, 200)
+}
+@media(max-width: 1000px){
+    button{
+        transition: 0.1s
+    }
+    button:hover{
+    background: none;
+    color:black
+    }
+    button:active{
+        background: #ac3b3b;
+        color:white
+    }
+}
